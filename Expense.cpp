@@ -109,7 +109,7 @@ int main(){
     displayExpense(expenses);
     cout<<"----------------------------------------"<<endl;
     cout<<"----------------------------------------"<<endl;
-    cout<<"Total expenses: "<<calculateTotal(expenses)<<endl;
+    cout<<"Total amount spent: "<<calculateTotal(expenses)<<endl;
     cout<<"Food expenses: "<<categoryTotal(expenses, 'F')<<endl;
     cout<<"Transportation expenses: "<<categoryTotal(expenses, 'T')<<endl;
     cout<<"Shopping expenses: "<<categoryTotal(expenses, 'S')<<endl;
