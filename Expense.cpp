@@ -117,7 +117,7 @@ int main(){
     cout<<"----------------------------------------"<<endl;
     cout<<"----------------------------------------"<<endl;
     int highestIndex = HighestExpense(expenses);
-    cout<<"The highest expense is: "<<expenses[highestIndex].amount<<endl;
+    cout<<"Highest expense amount: "<<expenses[highestIndex].amount<<endl;
     cout<<"Category: "<<expenses[highestIndex].CCategory(expenses[highestIndex].category)<<endl;
     cout<<"Description: "<<expenses[highestIndex].description<<endl;
     cout<<"----------------------------------------"<<endl;
